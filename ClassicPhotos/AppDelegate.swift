@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ClassicPhotos
 //
-//  Created by Dima on 03.11.15.
-//  Copyright © 2015 raywenderlich. All rights reserved.
+//  Created by Richard Turton on 03/07/2014.
+//  Copyright (c) 2014 raywenderlich. All rights reserved.
 //
 
 import UIKit
@@ -12,8 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-    
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+
+
+  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         return true
     }
 
@@ -38,4 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+
+
 }
+
